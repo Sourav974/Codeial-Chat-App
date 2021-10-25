@@ -10,7 +10,7 @@ class PostsList extends Component {
             <div className="post-header">
               <div className="post-avatar">
                 <img
-                  src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                  src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
                   alt="user-pic"
                 />
                 <div>
@@ -23,7 +23,7 @@ class PostsList extends Component {
               <div className="post-actions">
                 <div className="post-like">
                   <img
-                    src="https://image.flaticon.com/icons/svg/1077/1077035.svg"
+                    src="https://cdn-icons.flaticon.com/png/512/210/premium/210545.png?token=exp=1635147305~hmac=d55365e0fa452830169495d0e604f242"
                     alt="likes-icon"
                   />
                   <span>{post.likes.length}</span>
