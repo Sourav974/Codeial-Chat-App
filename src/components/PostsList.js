@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import PropTypes from "prop-types";
 class PostsList extends Component {
   render() {
     const { posts } = this.props;
@@ -59,5 +59,8 @@ class PostsList extends Component {
     );
   }
 }
-
+// eslint-disable-next-line react/no-typos
+PostsList.PropTypes = {
+  posts: PropTypes.array.isRequired,
+};
 export default PostsList;
